@@ -997,8 +997,8 @@ div.balloonInvitationTip a:hover {
   position: absolute;
   top: 60px;
   right: 100px;
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: 450px;
   padding: 6px;
   background: url("../images/transparent-black-25-bg.png") repeat;
   border-radius: 10px;
@@ -1007,8 +1007,8 @@ div.balloonInvitationTip a:hover {
 }
 
 #webcam #remoteView {
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: 450px;
   background-color: #000;
 }
 
