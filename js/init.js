@@ -28,7 +28,7 @@ $(document).ready(function(){
   // Local variables.
 
   var display_name = null;
-  var sip_uri = null;
+  var sip_uri = "sip:xxx@sip.ntipa.com";
   var sip_password = null;
   var ws_servers = null;
 
@@ -57,13 +57,15 @@ $(document).ready(function(){
   var theme04 = $("#themes > div.theme04");
 
   // Tryit JsSIP data.
-  var tryit_sip_domain = "tryit.jssip.net";
-  var tryit_ws_uri = "ws://ws1.versatica.com:10080";
+/*  var tryit_sip_domain = "tryit.jssip.net";*/
+  var tryit_sip_domain = "sip.ntipa.com";
+  var tryit_ws_uri = "ws://sip.ntipa.com";
   var invitation_link_pre = "http://tryit.jssip.net?invited-by="
 
 
   // Initialization.
   login_ws_servers.val(tryit_ws_uri);
+  login_sip_uri.val("sip:xxx@sip.ntipa.com");
 
 
   login_advanced_settings_link.click(function() {
