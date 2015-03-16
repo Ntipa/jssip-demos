@@ -160,7 +160,7 @@ div.balloonInvitationTip a:hover {
   width: 347px;
   height: 190px;
   margin: auto;
-  background: center url("../images/logo.png") no-repeat;
+  background: center url("../images/ntipa-phone.png") no-repeat;
   z-index: 10;
 }
 
@@ -997,8 +997,8 @@ div.balloonInvitationTip a:hover {
   position: absolute;
   top: 60px;
   right: 100px;
-  width: 400px;
-  height: 300px;
+  width: 800px;
+  height: 600px;
   padding: 6px;
   background: url("../images/transparent-black-25-bg.png") repeat;
   border-radius: 10px;
@@ -1007,8 +1007,8 @@ div.balloonInvitationTip a:hover {
 }
 
 #webcam #remoteView {
-  width: 400px;
-  height: 300px;
+  width: 800px;
+  height: 600px;
   background-color: #000;
 }
 

@@ -60,7 +60,7 @@ $(document).ready(function(){
 /*  var tryit_sip_domain = "tryit.jssip.net";*/
   var tryit_sip_domain = "sip.ntipa.com";
   var tryit_ws_uri = "ws://sip.ntipa.com";
-  var invitation_link_pre = "http://tryit.jssip.net?invited-by="
+  var invitation_link_pre = "http://sip.ntipa.com/jssip?invited-by="
 
 
   // Initialization.
