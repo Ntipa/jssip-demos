@@ -14,7 +14,7 @@ $(document).ready(function(){
   $('#use-tryit-account-link a').focus();
 
   // Global variables.
-  var PageTitle = "JsSIP Tryit";
+  var PageTitle = "Ntipa Phone";
   document.title = PageTitle;
 
   register_checkbox = $("#phone > .status #register");
