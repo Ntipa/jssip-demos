@@ -59,7 +59,7 @@ $(document).ready(function(){
   // Tryit JsSIP data.
 /*  var tryit_sip_domain = "tryit.jssip.net";*/
   var tryit_sip_domain = "sip.ntipa.com";
-  var tryit_ws_uri = "ws://sip.ntipa.com";
+  var tryit_ws_uri = "wss://sip.ntipa.com/ws";
   var invitation_link_pre = "http://sip.ntipa.com/jssip?invited-by="
 
 

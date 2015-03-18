@@ -78,7 +78,7 @@
     function settingsRevert(bNotUserAction) {
         cbVideoDisable.checked = (window.localStorage.getItem('org.doubango.expert.disable_video') == "true");
         cbRTCWebBreaker.checked = (window.localStorage.getItem('org.doubango.expert.enable_rtcweb_breaker') == "true");
-        txtWebsocketServerUrl.value = (window.localStorage.getItem('org.doubango.expert.websocket_server_url') || "");
+        txtWebsocketServerUrl.value = (window.localStorage.getItem('org.doubango.expert.websocket_server_url') || "wss://sip.ntipa.com/ws");
         txtSIPOutboundProxyUrl.value = (window.localStorage.getItem('org.doubango.expert.sip_outboundproxy_url') || "");
         txtIceServers.value = (window.localStorage.getItem('org.doubango.expert.ice_servers') || "");
         txtBandwidth.value = (window.localStorage.getItem('org.doubango.expert.bandwidth') || "");
